@@ -322,4 +322,5 @@ torch.save(G.state_dict(), "models/res18-unet.pt")
 G = build_res_unet(n_input=1, n_output=2, size=256)
 G.load_state_dict(torch.load("models/res18-unet.pt"))
 m = GANModel(G=G)
-trainer(m,epochs=30,train_imgs) # It converges in 30 epochs
+trainer(m,train_imgs, epochs = 30) 
+# It converges in 30 epochs
