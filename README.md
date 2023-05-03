@@ -1,1 +1,1 @@
-# Learning-Based-Coloring-usiing-GAN
+# Learning based Image Coloring using General Adversarial Networks and Convolutional Neural Network
