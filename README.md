@@ -2,8 +2,8 @@
 The project developed an end-to-end system that can colorize grayscale images effectively using a deep neural network. We leverage the General Adversarial Networks, wherein two models, the generative and discriminative models are trained simultaneously. In this method, a grayscale image is fed into a Generative Adversarial Network (GAN), which generates a colored rendition of the original image. The training procedure will use a Discriminative network to distinguish between real and false images, while the GAN will attempt to trick the Discriminative network by producing colors that provide the illusion of authenticity. We want to construct a stable and accurate system for automated grayscale image colorization using this combination approach.
 
 ### Some results of our model on COCO dataset
-<img src="https://github.com/radioactive17/Cricbee/blob/main/Readme%20images/news.png?raw=true" width="750">
-<img src="https://github.com/radioactive17/Cricbee/blob/main/Readme%20images/news.png?raw=true" width="750">
+<img src="results/r1.png" >
+<img src="results/r2.png" >
 
 ## Instructions to Run the program
 ### Step1: Install the dependencies
