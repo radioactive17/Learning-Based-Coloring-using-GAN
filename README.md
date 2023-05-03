@@ -28,6 +28,8 @@ python3 train.py
 ```
 **Note**: Running train.py can take time. In our case, it took 10-11 hours when trained on Single Nvidia A100 GPU 
 
+## References
+
 
 ## Authors
 Varun Sreedhar, Jignesh Kirti Nagda, and Venkhatesh Arunachalam
