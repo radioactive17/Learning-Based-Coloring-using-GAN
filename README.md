@@ -4,6 +4,10 @@ The project developed an end-to-end system that can colorize grayscale images ef
 ### Some results of our model on COCO dataset
 <img src="results/r1.png" width = "750" >
 <img src="results/r2.png" width = "750">
+  
+ Top Row - Input Grayscale Image
+ Middle Row - Output as per our model
+ Bottom Row - Ground Truth
 
 ## Instructions to Run the program
 ### Step1: Install the dependencies
