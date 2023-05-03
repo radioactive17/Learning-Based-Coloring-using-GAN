@@ -9,7 +9,7 @@ Go to the directory containing requirements.txt
 pip install -r requirements.txt
 ```
 
-### Step2: You can either train the model from scratch or use our model to test on a grayscale image
+### Step2: You can either train the model from scratch or use our trained model to test the results.
 #### Part A: Using the existing model
 Go to the materials directory, you will find a text file containing a drive link. The drive link contains our pretrained model. Download the zip file and extract them to the location where the file crayons.py exists.
 
@@ -17,6 +17,14 @@ After that, load any grayscale image into the directory having crayons.py and si
 ```bash
 python3 crayons.py
 ```
+
+#### Part B: Training from scratch
+Go the directory having train.py and simply run the program using
+```bash
+python3 train.py
+```
+**Note**: Running train.py can take time. In our case, it took 10-11 hours when trained on Single Nvidia A100 GPU 
+
 
 ## Authors
 Varun Sreedhar, Jignesh Kirti Nagda, and Venkhatesh Arunachalam
