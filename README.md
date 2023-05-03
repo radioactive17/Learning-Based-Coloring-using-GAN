@@ -3,10 +3,19 @@ The project developed an end-to-end system that can colorize grayscale images ef
 
 
 ## Instructions to Run the program
-### Installing the dependencies
+### Step1: Install the dependencies
 Go to the directory containing requirements.txt 
 ```bash
 pip install -r requirements.txt
+```
+
+### Step2: You can either train the model from scratch or use our model to test on a grayscale image
+#### Part A: Using the existing model
+Go to the materials directory, you will find a text file containing a drive link. The drive link contains our pretrained model. Download the zip file and extract them to the location where the file crayons.py exists.
+
+After that, load any grayscale image into the directory having crayons.py and simple run the program using
+```bash
+python3 crayons.py
 ```
 
 ## Authors
