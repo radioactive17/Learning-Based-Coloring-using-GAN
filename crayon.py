@@ -28,7 +28,7 @@ def get_L(img_path):
 
   return L
 
-L = get_L('test4.jpeg')
+L = get_L('your image here')
 
 class UnetUnit(nn.Module):
   # nf:n1
