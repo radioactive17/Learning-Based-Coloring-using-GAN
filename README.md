@@ -22,7 +22,7 @@ Go to the materials directory, you will find a text file containing a drive link
 
 After that, load any grayscale image into the directory having crayons.py and simple run the program using
 ```bash
-python3 crayons.py
+python3 crayon.py
 ```
 
 #### Part B: Training from scratch
