@@ -30,7 +30,7 @@ Go the directory having train.py and simply run the program using
 ```bash
 python3 train.py
 ```
-**Note**: Running train.py can take time. In our case, it took 10-11 hours when trained on Single Nvidia A100 GPU 
+**Note**: Running train.py can take time. In our case, it took approximately 20 hours when trained on Single Nvidia A100 GPU 
 
 ## References
 1. Isola, P., Zhu, J., Zhou, T., Efros, A. A. (2016). Image-to-Image Translation with Conditional Adversarial Networks. ArXiv. /abs/1611.07004
